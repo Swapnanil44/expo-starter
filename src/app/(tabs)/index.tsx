@@ -1,6 +1,6 @@
 
 import { Text, View, StyleSheet } from "react-native";
-import "../../global.css";
+import "../../../global.css";
 import { Link } from "expo-router";
 
 export default function Index() {
@@ -9,15 +9,6 @@ export default function Index() {
       <Text className="text-xl font-bold text-success">
         Welcome to Nativewind!
       </Text>
-      <Link href="/onboarding">onboarding</Link>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
